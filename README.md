@@ -36,7 +36,7 @@ directory structure and calculate the checksums of all the files there, use the 
 
 ## Examples
 
-Calculate the checksums of all files in the current directory to a c.txt file:
+Calculate the checksums of all files in the current directory to a **c.txt** file:
 
 `java -jar ChecksumChecker.jar -o c.txt .`
 
