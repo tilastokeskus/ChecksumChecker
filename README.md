@@ -40,7 +40,7 @@ Calculate the checksums of all files in the current directory to a c.txt file:
 
 `java -jar ChecksumChecker.jar -o c.txt .`
 
-Calculate the checksums of `a.msi`, `b.exe` and `c.jar`:
+Calculate the checksums of **a.msi**, **b.exe** and **c.jar**:
 
 `java -jar ChecksumChecker.jar a.msi b.exe c.jar`
 
