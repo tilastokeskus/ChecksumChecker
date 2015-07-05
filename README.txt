@@ -1,22 +1,24 @@
-# Checksum Checker
-
-## How to run
+How to run
+========================================
 
 in the commandline:
 
   java -jar ChecksumChecker.jar [-MD5|SHA1] [-o] [-r] <file> [file]
 
 
-## Usage
+Usage
+========================================
 
-### Output
+Output:
 
 By default, calculated checksums are printed to the console and written into a
 checksum.txt file. To change the output file, use the -o argument:
 
   java -jar ChecksumChecker.jar -o outputfile <file(s)>
 
-### Algorithms
+---
+
+Algorithm:
 
 The checksum can be calculated with either MD5 or SHA1 algorithm. The program uses
 MD5 by default. To specify the algorithm:
@@ -25,7 +27,9 @@ MD5 by default. To specify the algorithm:
 or
   java -jar ChecksumChecker.jar -SHA1 <file(s)>
 
-### Directory traversing
+---
+
+Directory traversing:
 
 By default, if a directory or directories are given to the program, only the checksums of
 the files in the specified directories' roots are calculated. To recursively traverse the
@@ -34,7 +38,8 @@ directory structure and calculate the checksums of all the files there, use the 
   java -jar ChecksumChecker.jar -r <file>
 
 
-## Examples
+Examples
+========================================
 
 Calculate the checksums of all files in the current directory to a c.txt file:
 
